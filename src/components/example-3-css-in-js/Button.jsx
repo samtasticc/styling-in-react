@@ -11,9 +11,10 @@ const Button3 = ({ buttonText }) => {
         width: '300px',
       }
     })
+    const classes = styles()
     return <button className={classes.btn}>{buttonText}</button>;
   };
   
-  const classes = styles()
+
   export default Button3;
   
